@@ -1,7 +1,7 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "homepage": "https://Ygali04.github.io/",
+  "homepage": "https://Ygali04.github.io/my-website",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",

@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route 
-            path="/" 
+            path="/my-website" 
             element={<Home />} 
           />
 
