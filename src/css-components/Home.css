@@ -1,0 +1,171 @@
+.home {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Avenir", sans-serif;
+    color: #1a255a;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(90vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    color: #3e497a;
+  }
+  
+  .about h2 {
+    font-family: "Avenir", sans-serif;
+    font-size: 80px;
+    margin-top: -10px;
+    color: #1a255a;
+    height: 50px;
+  }
+
+  .about .prompt {
+    width: 60%;
+    font-size: 30px;
+  }
+
+  .prompt svg {
+    font-family: "Avenir", sans-serif;
+    font-size: 45px;
+    margin: 5px;
+    color: #1a255a;
+  }
+
+  .social svg {
+    color: #1a255a;
+    margin: 15px;
+    font-size: 55px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .socialButtons {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a255a;
+  }
+
+  .socialButtons button {
+    margin-right: 0px;
+    background-color: transparent;
+    border: none;
+    color: #1a255a;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .skills {
+    font-family: "Avenir", sans-serif;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #1a255a;
+  }
+  
+  .skills h1 {
+    background-color: #1a255a;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .skills .list h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .skills .list {
+    font-family: "Avenir", sans-serif;
+    list-style: none;
+    width: 55%;
+    background-color: #1a255a;
+    margin-right: 38px;
+    margin-top: -40px;
+    margin-bottom: 90px;
+  }
+  
+  .list span {
+    font-size: 25px;
+    background-color: #1a255a;
+  }
+
+  .aboutCont {
+    font-family: "Avenir", sans-serif;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #1a255a;
+  }
+
+  .aboutCont h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.bio img, .bio p {
+    flex-grow: 0;
+    margin-top: 50px;
+}
+
+  .bio img {
+    width: 600px;
+    border-radius: 10px;
+    margin-right: 60px;
+  }
+
+  .bio p {
+    font-size: 30px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+
+    .skills .list {
+        margin-right:0px
+    }
+
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
