@@ -76,23 +76,6 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="June 2024 - Present"
-          iconStyle={{ background: "#69248f", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            LLM Engineer - Atomicwork
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-          Designed & implemented agents for enhanced ITSM/ESM platform capabilities.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
           date="March 2024 - Present"
           iconStyle={{ background: "#c9490e", color: "#fff" }}
           icon={<WorkIcon />}
