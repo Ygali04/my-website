@@ -40,8 +40,7 @@ function Home() {
         <div className="about">
             <h2> Hi, I'm Yahvin</h2>
             <div className="prompt">
-                <p> An aspiring machine learning engineer with a passion for learning that's out of this world!</p>
-                <p> <small> <small> (Star Wars pun intended) </small> </small></p>
+                <p>I leverage AI to push the boundaries of what's possible</p>
                 <div className="social">
                 <div className="socialButtons">
                 <button onClick={() => {
@@ -99,15 +98,25 @@ function Home() {
         </div>
 
         <div className="aboutCont">
-            <h1> About Me </h1>
-            <div className="bio"> 
-                <img src={profile} alt="My Profile Image" />
-                <p> Aspiring AI Engineer. Ardent environmentalist. Believer in upliftment through service. Thalassophile. Rookie food experimentalist who brews a mean Chai. Loves to play Piano. </p>
-            </div>
+        <h1>About Me</h1>
+        <div className="bio">
+          <div className="bio-image">
+            <img src={profile} alt="My Profile Image" />
+          </div>
+          <div className="bio-text">
+            <ul>
+              <li>Aspiring AI Engineer</li>
+              <li>Ardent environmentalist</li>
+              <li>Believer in upliftment through service</li>
+              <li>Thalassophile</li>
+              <li>Rookie food experimentalist who brews a mean Chai</li>
+              <li>Loves to play Piano</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
   )
 }
-
 
 export default Home

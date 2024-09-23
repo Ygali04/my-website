@@ -14,7 +14,8 @@
     text-align: center;
   }
   .project img {
-    width: 700px;
+    max-width: 600px;
+    max-height: 400px;
     border-radius: 10px;
   }
   

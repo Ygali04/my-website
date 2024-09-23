@@ -7,6 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import { QuestionAnswer } from "@material-ui/icons";
+import "../css-components/Experience.css";
 
 function Experience() {
   return (
@@ -21,10 +22,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             California Connections Academy
           </h3>
-          <h4 className="vertical-timeline-element-subtitle"> 
+          <h4 className="vertical-timeline-element-subtitle">
             High School Diploma
           </h4>
-          <p>4.0 GPA, 21 AP Credits. AP scholar with Distinction. 2019 Ripon Student of the Year </p>
+          <p>4.0 GPA, 21 AP Credits. AP scholar with Distinction. 2019 Ripon Student of the Year</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -51,12 +52,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             University of California, Los Angeles
           </h3>
-
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
           </h4>
-
-          <p> Computer Science</p>
+          <p>Computer Science</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -76,23 +75,6 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="June 2024 - Present"
-          iconStyle={{ background: "#69248f", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            LLM Engineer - Atomicwork
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-          Designed & implemented agents for enhanced ITSM/ESM platform capabilities.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
           date="March 2024 - Present"
           iconStyle={{ background: "#c9490e", color: "#fff" }}
           icon={<WorkIcon />}
@@ -104,12 +86,12 @@ function Experience() {
             San Francisco, CA
           </h4>
           <p>
-          Configured LMS and led onboarding process for students and instructors. Currently re-designing nonprofit's homepage.
+            Configured LMS and led onboarding process for students and instructors. Currently re-designing nonprofit's homepage.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work future"
           date="Present - ???"
           iconStyle={{ background: "#292726", color: "#fff" }}
           icon={<QuestionAnswer />}
@@ -118,7 +100,6 @@ function Experience() {
             What's next?
           </h1>
         </VerticalTimelineElement>
-
       </VerticalTimeline>
     </div>
   );
