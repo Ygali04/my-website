@@ -55,7 +55,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
           </h4>
-          <p>Computer Science</p>
+          <p>BS Computer Science</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -70,7 +70,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Elegant Mind Lab @ UCLA
           </h4>
-          <p>Spearheaded numerous GenAI centered multi-disciplinary projects utilizing Vision Transformers & LLMs.</p>
+          <p>Spearheaded numerous multi-disciplinary GenAI projects utilizing Vision Transformers & LLMs.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

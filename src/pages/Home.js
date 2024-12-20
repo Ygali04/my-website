@@ -40,7 +40,7 @@ function Home() {
         <div className="about">
             <h2> Hi, I'm Yahvin</h2>
             <div className="prompt">
-                <p>I leverage AI to push the boundaries of what's possible</p>
+                <p>I leverage AI to push the boundaries of what's possible.</p>
                 <div className="social">
                 <div className="socialButtons">
                 <button onClick={() => {
