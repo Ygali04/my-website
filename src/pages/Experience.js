@@ -75,18 +75,18 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="March 2024 - Present"
-          iconStyle={{ background: "#c9490e", color: "#fff" }}
+          date="October 2024 - Present"
+          iconStyle={{ background: "#006fbb", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Web Dev & LMS Manager - Leadership & Golf
+            SAP iXP Software Developer Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Palo Alto, CA
           </h4>
           <p>
-            Configured LMS and led onboarding process for students and instructors. Currently re-designing nonprofit's homepage.
+            Working on MLE solutions for SAP Labs BTP Innovation
           </p>
         </VerticalTimelineElement>
 

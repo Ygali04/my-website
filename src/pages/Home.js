@@ -77,22 +77,22 @@ function Home() {
 
                 <li className="item">
                     <h2> Back-End</h2>
-                    <span> PostgreSQL, MongoDB, DynamoDB, DocumentDB, DragonflyDB, Redis, Firebase </span>
+                    <span> PostgreSQL, MongoDB, Redis, Firebase </span>
                 </li>
 
                 <li className="item">
                     <h2> AI & ML </h2>
-                    <span> Python (NumPy, Pandas, Pytorch, TensorFlow), LangChain, Hugging Face, LlamaIndex, Ollama, Docker, Weaviate</span>
+                    <span> Python (NumPy, Pandas, Pytorch, TensorFlow), LangChain, HuggingFace, Ollama, Docker</span>
                 </li>
 
                 <li className="item">
                     <h2> Cloud Computing</h2>
-                    <span> Google Cloud, Firebase, AWS (Amplify, Lightsail, EC2, Sagemaker, Bedrock)</span>
+                    <span> Google Cloud, Firebase, AWS (Lambda, EC2, Lightsail)</span>
                 </li>
 
                 <li className="item">
                     <h2> Other</h2>
-                    <span> OCaml, Prolog, Scheme, Bash, Git, Flutter, Swift</span>
+                    <span> Golang, OCaml, Prolog, Scheme, Bash, Git, Flutter, Swift</span>
                 </li>
             </ol>
         </div>
